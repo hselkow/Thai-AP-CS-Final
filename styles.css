@@ -1,0 +1,190 @@
+#major-select {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #89CFF0;
+  color: #000000;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+#major-select:hover {
+  background-color: #89CFF0;
+  color: #fff;
+}
+
+#major-select:focus {
+  outline: none;
+  border-color: #5FA8D3;
+}
+
+.dropdown-content {
+  background-color: #89CFF0;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  width: 200px;
+  text-align: left;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 8px 10px;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #72b8d8;
+}
+
+
+button {
+  background-color: #89CFF0;  
+  color: #FFFFFF;             
+  border: none;               
+  padding: 15px 32px;         
+  text-align: center;        
+  text-decoration: none;     
+  display: inline-block;
+  font-size: 16px;          
+  border-radius: 12px;        
+  transition: background-color 0.3s ease; 
+}
+
+button:hover {
+  background-color: #5FA8D3; 
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #89CFF0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-family: "Roboto", sans-serif;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #0b0b0b;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #caced1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropbtn {
+  background-color: #89CFF0;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dropbtn:hover {
+  background-color: #478bae;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  background-color: #fff;
+  transition: background-color 0.2s ease-in-out;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+}
+body {
+  position: relative;
+}
+
+
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+#logo {
+  max-width: 100%; 
+  height: auto; 
+}
+
+header, footer {
+  padding: 20px 40px;
+  width: 80%; 
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+nav li {
+  margin-right: 30px;
+  padding: 10px 20px;
+}
+
+main section {
+  padding: 30px;
+  text-align: center; 
+}
+
+p {
+  margin-bottom: 20px;
+  text-align: center; 
+}
+
+form {
+  margin-bottom: 20px;
+  text-align: center; 
+}
+
+.radio-group div {
+  margin-bottom: 10px;
+}
+
+.slider-value {
+  margin-left: 10px;
+}
+
+.four-year-plan {
+  margin-top: 40px;
+  width: 80%; 
+  text-align: center;
+}
+
+table {
+  margin-top: 20px;
+  width: 100%; 
+}
